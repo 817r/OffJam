@@ -295,6 +295,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: MainMenu
       objectReference: {fileID: 0}
+    - target: {fileID: 4560291609777404849, guid: c671fefdad026c841842aa4d2843569f, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -0.6689148
+      objectReference: {fileID: 0}
+    - target: {fileID: 5031995400905826451, guid: c671fefdad026c841842aa4d2843569f, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: -0.95007324
+      objectReference: {fileID: 0}
     - target: {fileID: 5366068812122296538, guid: c671fefdad026c841842aa4d2843569f, type: 3}
       propertyPath: m_Pivot.x
       value: 0
@@ -374,6 +382,22 @@ PrefabInstance:
     - target: {fileID: 5366068812122296538, guid: c671fefdad026c841842aa4d2843569f, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5523030017791175431, guid: c671fefdad026c841842aa4d2843569f, type: 3}
+      propertyPath: m_UiScaleMode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5523030017791175431, guid: c671fefdad026c841842aa4d2843569f, type: 3}
+      propertyPath: m_MatchWidthOrHeight
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5523030017791175431, guid: c671fefdad026c841842aa4d2843569f, type: 3}
+      propertyPath: m_ReferenceResolution.x
+      value: 1920
+      objectReference: {fileID: 0}
+    - target: {fileID: 5523030017791175431, guid: c671fefdad026c841842aa4d2843569f, type: 3}
+      propertyPath: m_ReferenceResolution.y
+      value: 1080
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
