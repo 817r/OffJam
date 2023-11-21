@@ -16,4 +16,9 @@ public class baseCharacter : ScriptableObject
     public float charATK;
     public float charDEF;
     public float charHP;
+
+    [Header("Character Unique Attribute")]
+    public int charMultiplier;
+    public int charSpiritualEnergy;
+    public int charMaxSEN;
 }
