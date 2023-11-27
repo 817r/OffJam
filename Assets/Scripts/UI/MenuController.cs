@@ -16,6 +16,14 @@ public class MenuController : MonoBehaviour
     [SerializeField]
     private MenuScreen[] screens;
 
+    private void Start()
+    {
+        foreach(var s in screens)
+        {
+            s.screenObject.SetActive(s.screenName == "main");
+        }
+    }
+
     public void ChangeScreen(string menu)
     {
         foreach(var s in screens)
