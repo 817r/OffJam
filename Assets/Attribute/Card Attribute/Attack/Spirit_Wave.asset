@@ -10,8 +10,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 9e99e493988e77942a13ddab1e768245, type: 3}
-  m_Name: New Base Card
+  m_Name: Spirit_Wave
   m_EditorClassIdentifier: 
-  cardName: 
-  cardCost: 0
+  cardName: Spirit Wave
   typeCard: 0
+  cardCost: 3

@@ -11,7 +11,7 @@ public class baseCharacter : ScriptableObject
     public string characterName;
 
     [Header("Character Attribute")]
-    public classType clasType;
+    public classType classType;
     public float charScale;
     public float charATK;
     public float charDEF;
