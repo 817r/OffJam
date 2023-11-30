@@ -14,4 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cardName: Swift Strike
   typeCard: 0
+  heroName: 0
   cardCost: 2
+  cardModel: {fileID: 0}
+  BaseValue: 1
