@@ -37,6 +37,11 @@ public class MenuController : MonoBehaviour
 
     }
 
+    public void SelectingLevel()
+    {
+
+    }
+
     public void QuitGame()
     {
         Application.Quit();
@@ -46,5 +51,11 @@ public class MenuController : MonoBehaviour
     {
         MenuScreen sn = screens.FirstOrDefault(s => s.screenName == menu);
         return sn.screenObject.activeSelf;
+    }
+
+    public MenuScreen GetScreenObject(string menu)
+    {
+        MenuScreen sn = screens.FirstOrDefault(s => s.screenName == menu);
+        return sn;
     }
 }
