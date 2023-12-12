@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.EventSystems;
 
 public class CardDisplay : MonoBehaviour
 {
@@ -12,6 +13,7 @@ public class CardDisplay : MonoBehaviour
     public TMP_Text description;
     public Image image;
     public TMP_Text cardCost;
+    public GameObject cardDesc;
 
     void Start(){
         cardName.text = card.cardName;
@@ -19,4 +21,6 @@ public class CardDisplay : MonoBehaviour
         image.sprite = card.image;
         cardCost.text = card.cardCost.ToString();
     }
+
+    
 }
