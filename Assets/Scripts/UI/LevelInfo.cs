@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class LevelInfo : MonoBehaviour
 {
@@ -36,7 +37,7 @@ public class LevelInfo : MonoBehaviour
     public void PlayLevel()
     {
         Debug.LogFormat("Playing {0}", LvlName);
-
+        SceneManager.LoadScene("Gameplay");
         //kode untuk load level di sini
     }
 

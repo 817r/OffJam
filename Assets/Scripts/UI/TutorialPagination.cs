@@ -12,19 +12,24 @@ public class TutorialPagination : MonoBehaviour
     [SerializeField]
     private GameObject ButtonPrevious;
 
-    private int currentPage = 0;
-    private Button next;
-    private Button prev;
+    private int currentPage;
+    private int lastPage;
 
     void Awake()
     {
-        for (int i = 0; i < pages.Count; i++)
-        {
-            pages[i].SetActive(i == currentPage);
-        }
+        ResetPage();
 
         ButtonNext.SetActive(currentPage != 0);
         ButtonPrevious.SetActive(currentPage != pages.Count);
+    }
+
+    private void Update()
+    {
+        if (lastPage != currentPage)
+        {
+            lastPage = currentPage;
+            RefreshPage();
+        }
     }
 
     private void RefreshPage()
@@ -41,18 +46,15 @@ public class TutorialPagination : MonoBehaviour
     public void NextPage()
     {
         currentPage++;
-        RefreshPage();
     }
 
     public void PrevPage()
     {
         currentPage--;
-        RefreshPage();
     }
 
     public void ResetPage()
     {
         currentPage = 0;
-        RefreshPage();
     }
 }
